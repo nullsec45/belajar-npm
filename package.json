@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/ramarff/belajar-npm-cuy"
+    "url": "http://github.com/ramarff/belajar-npm"
   },
   "scripts": {
     "prestart": "echo 'Sebelum aplikasi mulai'",
