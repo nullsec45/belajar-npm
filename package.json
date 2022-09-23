@@ -1,0 +1,31 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "Belajar NPM cuy",
+  "main": "index.js",
+  "homepage": "http://ramarff.me",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ramarff/belajar-npm-cuy"
+  },
+  "scripts": {
+    "prestart": "echo 'Sebelum aplikasi mulai'",
+    "start": "node index.js",
+    "poststart": "echo 'Setelah aplikasi mulai'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ramarff",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "belajar-npm-library-cuy": "^1.1.0",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
+}
